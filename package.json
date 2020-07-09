@@ -1,0 +1,39 @@
+{
+    "name": "entrypoints-output-webpack-plugin",
+    "version": "0.0.1",
+    "description": "构建后输出 output 文件配置",
+    "main": "./plugin/index.js",
+    "author": "Pyrine.Law <petrus_law@yeah.net>",
+    "keywords": [
+      "entrypoints-output",
+      "entrypoints",
+      "entrypoints-webpack-plugin",
+      "entrypoints-output-webpack",
+      "entrypoints-output-plugin",
+      "entrypoints-output-webpack-plugin"
+    ],
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/pyrinelaw/entrypoints-output-webpack-plugin"
+    },
+    "files": [
+      "plugin",
+      "test",
+      "Readme.md"
+    ],
+    "engines": {
+      "node" : ">=8.0.0"
+    },
+    "dependencies": {
+      "lodash": "^4.17.4",
+      "write-json": "^3.0.1"
+    },
+    "peerDependencies": {
+      "webpack": ">=4.0.0"
+    },
+    "license": "MIT"
+}
+  
